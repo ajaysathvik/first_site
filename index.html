@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-with,initial-scale=1.0">
+        <title>university website design - easy tutorials </title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="https://www.vlab.co.in/Inst_logo/amrita-vishwa-vidyapeetham.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()" ></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>Making website is now one of the easiest thing in  the world . You just need to learn HTML ,CSS ,<br>Javascript and you 
+                    are good to go.
+                </p>
+                <a href="" class="hero-btn">Visit Us to know More</a>
+            </div>
+
+        </section>
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+            <div class="row"> 
+                <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    . Nunc scelerisque viverra mauris in aliquam.Diam sit amet nisl suscipit adipiscing bibendum est.
+                     Pretium nibh ipsum consequat nisl vel pretium lectus quam id.Dui ut ornare lectus sit amet est placerat.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        . Nunc scelerisque viverra mauris in aliquam.Diam sit amet nisl suscipit adipiscing bibendum est.
+                         Pretium nibh ipsum consequat nisl vel pretium lectus quam id.Dui ut ornare lectus sit amet est placerat.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post-graduation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                        . Nunc scelerisque viverra mauris in aliquam.Diam sit amet nisl suscipit adipiscing bibendum est.
+                         Pretium nibh ipsum consequat nisl vel pretium lectus quam id.Dui ut ornare lectus sit amet est placerat.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!--------CAMPUS---------->
+
+        <section class="campus">
+            <h1>Our Global Lens</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="https://images.app.goo.gl/bMZSH4xtmh4kK8ha7">
+                </div>
+            </div>
+
+        </section>
+        <!---javascript for toggle menu-->>
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>      
